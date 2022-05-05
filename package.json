@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yoophi/nestjs-react-todos-monorepo.git",
+  "author": "Pyunghyuk Yoo <yoophi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.4.0"
+  }
+}
